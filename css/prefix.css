@@ -2,10 +2,12 @@
     font-family: "Oswald";
     src: url("../font/Oswald-Bold.ttf");
     font-weight: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: "Oswald";
     src: url("../font/Oswald-Light.ttf");
+    font-display: swap;
 }
 
 
