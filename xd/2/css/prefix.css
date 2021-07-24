@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../font/Oswald-Bold.ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url("../font/Oswald-Light.ttf");
+    font-display: swap;
+}
+
+
+*{margin:0;padding:0;font-family:"Oswald",Arial;}
+html,body{height: 100%; overflow-x:hidden;}
+
+#header{}
+.titulo{padding: 10px;font-size: 3em;background: #00afef;text-align: center;}
+#menu{padding: 10px;text-align: center;  position: fixed;  top: 0;   width: 100%;   background: white;}
+#menu ul{padding:10px;list-style-type: none;}
+.fix{clear: both}
+ul li{  display: inline;}
+ul li a{padding:10px;text-decoration: none;color:#333;}
+ul li a:hover{text-decoration: underline;}
+
+#fotopiscina,#fotodepa {
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; //propotional resize
+}
+#fotopiscina{background-image: url("../img/piscina.jpg");}
+#fotodepa{background-image: url("../img/depa.jpg");background-size: 100% 100%;}
+
+#piscina,#departamento{}
+#piscina h1,#departamento h1{text-align: center;padding: 20px;background: white;}
+.im{text-transform: uppercase;text-align: center;font-size: 4em;font-weight: bold;}
+.azul{background-color: #47c9e5!important;}
+.nara{background-color: #EB7B59!important;}
+#piscina .xtra{padding: 10px;background: white;text-align: center;}
+iframe{margin-top:40px;}
+
+.formulario,.consulta{margin:0 auto; width: 50%;padding: 10px;}
+.formulario{margin-bottom: 20px;background: white;border-radius:0 0 8px 8px;}
+.consulta{text-transform: uppercase;text-align: center;margin-bottom: 20px;margin-top:20px;}
+.formulario p{padding-top: 10px;padding-bottom: 10px;}
+.formulario select,.button{margin-bottom: 20px;}
+.button,.formulario select{
+padding: 10px;width: 100%;
+border:1px solid #47c9e5;
+cursor: pointer;
+background: white;
+border-radius:8px 8px 0 0;
+}
+
+.button{border-radius:0 0 8px 8px;border-color: #333;}
+.button:hover{background: #333;color: white;}
+button:focus {outline:0;}
+
+#btnpiscina:hover,#btndepa:hover{
+background: #47c9e5;
+color: white;
+border:none;
+}
+
+#btnpiscina:hover,#btndepa:hover{border:1px solid white;transition:all 0.3s ease;}
+.razones{
+  text-align: center;
+  width: 50%;
+  margin:0 auto;
+  margin-bottom: 130px;
+  margin-top: 30px;
+}
+/* Clear floats after the columns */
+.razones:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.razones p{padding: 10px;}
+.razones .tt{font-family:Oswald;}
+.razones .dibu{font-size: 4em!important;}
+svg{margin-top:20px;}
+#formpiscina,#formdepa{display:none;}
+#botones{width: 80%; margin: 0 auto;text-align: center;margin-bottom: 50px;}
+#form{margin-top: 100px;background: #47c9e5;overflow-y:hidden;overflow-x:hidden;}
+#btnpiscina,#btndepa{padding: 10px;display:inline-block;width: 45%;
+border:1px solid #47c9e5;
+cursor: pointer;
+background: white;
+}
+.btnvolver{cursor: pointer;}
+#footer{padding: 10px;background: #333;color:white;text-align: center;}
+#footer a{color:white;text-decoration: none}
+#footer a:hover{text-decoration: underline;}
+
+@media only screen and (max-device-width: 480px){
+#botones{margin-bottom: 50px!important;}
+#fotodepa,#fotopiscina{background-size: 200%; //propotional resize}
+#fotodepa{background-size: 100% 100%;}
+iframe{height: 250px;}
+.razones{width: 100%;margin-bottom: 40px;}
+.formulario{width: 90%;}
+.razones .pp{margin-bottom: 30px!important;}
+#form{margin-top: 40px;}
+}

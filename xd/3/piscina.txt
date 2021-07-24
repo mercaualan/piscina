@@ -1,0 +1,92 @@
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+
+<!-- Formulario Piscina -->
+<p>Tamaño de la piscina:</p>
+<select id="tamano" class="select-css">
+    <option value="1">5x3</option>
+    <option value="2">6x3</option>
+    <option value="3">7x3</option>
+    <option value="4">8x3</option>
+    <option value="5">10x3</option>
+    <option value="6">12x6</option>
+</select>
+<p>Lugar en donde quiere construirla:</p>
+<select id="lugar" class="select-css">
+  <option value="1">San Luis</option>
+  <option value="2">El Volcán</option>
+  <option value="3">La Punta</option>
+  <option value="4">Juana Koslay</option>
+  <option value="5">Villa Mercedes </option>
+  <option value="6">Justo Daract</option>
+  <option value="7">Santa Rosa del Conlara
+  <option value="8">Merlo</option>
+  <option value="9">Carpintería</option>
+  <option value="10">Concarán</option>
+  <option value="11">San Francisco del Monte de Oro</option>
+  <option value="12">Quines</option>
+  <option value="13">Candelaria</option>
+  <option value="14">Luján</option>
+  <option value="15">La Toma </option>
+  <option value="16">Carolina</option>
+  <option value="17">El Trapiche</option>
+  <option value="18">Buena Esperanza </option>
+  <option value="19">Unión</option>
+  <option value="20">Arizona</option>
+  <option value="21">Nueva Galia</option>
+  <option value="22">San Martín</option>
+  <option value="23">Paso Grande</option>
+  <option value="24">Las Vertientes</option>
+  <option value="25">Otro</option>
+</select>
+<p>Usted está dispuesto a pagar:</p>
+<select id="pagar" class="select-css">
+<option value="1">Mano de obra y material</option>
+<option value="2">Solo mano de obra</option>
+</select>
+<button name="boton" class="button">Click aquí para consultar por Whatsapp</button>
+
+<!-- Formulario Departamento -->
+
+<p>Tamaño del departamento:</p>
+<select id="tamanodepa" class="select-css">
+    <option value="1">20m²</option>
+    <option value="2">40m²</option>
+    <option value="3">60m²</option>
+    <option value="4">100m²</option>
+
+</select>
+<p>Lugar en donde quiere construirlo:</p>
+<select id="lugar" class="select-css">
+  <option value="1">San Luis</option>
+  <option value="2">El Volcán</option>
+  <option value="3">La Punta</option>
+  <option value="4">Juana Koslay</option>
+  <option value="5">Villa Mercedes </option>
+  <option value="6">Justo Daract</option>
+  <option value="7">Santa Rosa del Conlara
+  <option value="8">Merlo</option>
+  <option value="9">Carpintería</option>
+  <option value="10">Concarán</option>
+  <option value="11">San Francisco del Monte de Oro</option>
+  <option value="12">Quines</option>
+  <option value="13">Candelaria</option>
+  <option value="14">Luján</option>
+  <option value="15">La Toma </option>
+  <option value="16">Carolina</option>
+  <option value="17">El Trapiche</option>
+  <option value="18">Buena Esperanza </option>
+  <option value="19">Unión</option>
+  <option value="20">Arizona</option>
+  <option value="21">Nueva Galia</option>
+  <option value="22">San Martín</option>
+  <option value="23">Paso Grande</option>
+  <option value="24">Las Vertientes</option>
+  <option value="25">Otro</option>
+</select>
+<p>Usted está dispuesto a pagar:</p>
+<select id="pagar" class="select-css">
+<option value="1">Mano de obra y material</option>
+<option value="2">Solo mano de obra</option>
+</select>
+<button name="boton" class="button">Click aquí para consultar por Whatsapp</button>

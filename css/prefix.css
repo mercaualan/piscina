@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato-Black.ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato-Regular.ttf");
+    font-display: swap;
+}
+
+
+*{margin:0;padding:0;font-family: Lato;}
+body{background: white;}
+.estampado{background: #f2f2f2!important;color: black!important;}
+
+#menu{padding: 10px;text-align: center;  position: fixed;  top: 0;   width: 100%;   background: white;  z-index: 1;border-bottom: 1px solid #f2f2f2;}
+#menu ul{padding:10px;list-style-type: none;}
+.gap{margin-top:30px!important;}
+.supergap{margin-top:100px!important;}
+.izq,.der{float:left;width: 50%;margin-top:30px!important;}
+.der{}
+.fix{clear: both}
+ul li{  display: inline;}
+ul li a{padding:10px;text-decoration: none;color:#333;}
+ul li a:hover{text-decoration: underline;}
+
+#contenedor{margin:0 auto;}
+#contenedor{text-align: center;margin-top:60px;}
+
+#contenedor h1{padding: 10px;}
+#contenedor h2{padding: 20px;margin: 10px;font-size: 2em;font-weight: bold;text-transform: uppercase;}
+
+.txt{padding: 10px;}
+.cimg{height: 600px;width:80%;}
+
+.piscina{background: #47c9e5;color: black;}
+
+.piscina h1{color:white;}
+
+.pisc{background: #111;color: white;}
+
+.column {float: left;width: 33.33%;}
+.column svg{margin-top:10px;}
+.row{padding: 10px; border-top: 1px solid #f2f2f2;}
+.row p{padding: 10px;text-align: center}
+.row:after {content: "";  display: table;  clear: both;}
+.tt{width: 250px;margin:0 auto;}
+.tta{width: 450px;}
+
+@media screen and (max-width: 600px) {.supergap{margin-top:30px!important;}.der p{padding:0 10px 10px 0!important}.tt,.tta{width: 100%!important;}.column {width: 100%;margin-bottom: 30px;}.izq,.der{float:none;width: 100%}.der{margin:0 auto; width:80%;}.slider__controls{font-size:10px}.slider{width: 90%!important;}}
+select{
+padding: 10px;width: 100%;
+border:1px solid #f1f1f1;
+cursor: pointer;
+background: white;
+}
+#formpiscina{width: 80%;margin: 0 auto;}
+#redes{float: left;width: 50%;}
+.fix{clear: both;}
+.der{margin-top: 15px;text-align: left;}
+.der p{padding: 10px;}
+.der div{margin-left:10px;}
+.formulario p{margin-top: 15px;text-align: left;padding-bottom:10px;padding-top:10px;}
+.button{margin-top:30px;margin-bottom:20px;padding:10px;font-size: 1.5em;width: 100%;
+background: white;
+border-radius: 3px;
+border:1px solid #25d366;
+font-weight: bold;
+text-transform: uppercase;
+cursor: pointer;
+
+}
+.button:hover{background: #25d366;color: white;}
+#redes{margin:0 auto; width: 100%;border-top:1px solid #f2f2f2;margin-top:40px;}
+#redes h3{padding: 10px;margin:20px;}
+#redes svg{margin-bottom: 20px;}
+#redes .dos{margin-left:40px;}
+
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+.whatsapp svg { fill: white;}
+.whatsapp-icon {
+  margin-top:13px;
+}
