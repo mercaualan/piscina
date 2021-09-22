@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/prefix.css">
-  <link rel="stylesheet" href="css/slider.css">
+
   <meta name="facebook-domain-verification" content="uwaioggk9h6lwa4iiruyvtzcy2clfb" />
   <!-- Facebook Pixel Code -->
 <script>
@@ -56,6 +56,15 @@ src="https://www.facebook.com/tr?id=826998371186823&ev=PageView&noscript=1"
   <meta property="twitter:title" content="Construcción San Luis">
   <meta property="twitter:description" content="Construcción de piscinas y departamentos al mejor precio.">
   <meta property="twitter:image" content="https://construccionsanluis.com/img/piscina.jpg">
+  <style media="screen">
+  *{box-sizing: border-box}body{background-color: #f1f1f1;font-family: Arial}.main{max-width: 1000px;margin: auto}.irow{margin: 8px -16px}.irow,.irow > .icolumn{padding: 8px}.icolumn{float: left;width: 25%}.irow:after{content: "";display: table;clear: both}.icontent{background-color: white;padding: 10px}.irow img{Height:200px}@media screen and (max-width: 900px){.icolumn{width: 50%}}@media screen and (max-width: 600px){.icolumn{width: 100%}}.modal{z-index:1;display:none;padding-top:10px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.8)}.imodal{margin: auto;display: block;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%)}.modal-hover-opacity{opacity:1;filter:alpha(opacity=100);-webkit-backface-visibility:hidden}.modal-hover-opacity:hover{opacity:0.60;filter:alpha(opacity=60);-webkit-backface-visibility:hidden}.close{text-decoration:none;float:right;font-size:24px;font-weight:bold;color:white}.container1{width:200px;display:inline-block}.imodal, #caption{-webkit-animation-name: zoom;-webkit-animation-duration: 0.6s;animation-name: zoom;animation-duration: 0.6s}@-webkit-keyframes zoom{from{-webkit-transform:scale(0)}to{-webkit-transform:scale(1)}}@keyframes zoom{from{transform:scale(0)}to{transform:scale(1)}}
+</style>
+<script type="text/javascript">
+  function onClick(element) {
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "block";
+}
+</script>
 </head>
 <body>
   <div id="menu">
@@ -66,46 +75,54 @@ src="https://www.facebook.com/tr?id=826998371186823&ev=PageView&noscript=1"
   </div>
 
 <div id="contenedor">
+<div class="txt pisc"><h1 class="bounce2">Construcciones San Luis</h1></div>
 <div id="piscina">
-  <div class="txt pisc"><h1 class="bounce2">¿Por qué construir una Piscina?</h1></div>
 
+<div class="sliderrr ">
+  <div class="slider" style="padding:20px;">
 
+    <!-- Portfolio Gallery Grid -->
+    <div class="irow">
+      <div class="icolumn">
+        <div class="icontent">
+          <img src="img/piscina.jpg" alt="Piscina" style="width:100%" onclick="onClick(this)">
+        </div>
+      </div>
+      <div class="icolumn">
+        <div class="icontent">
+          <img src="img/piscina1.jpg" alt="Lights" style="width:100%" onclick="onClick(this)">
+        </div>
+      </div>
+      <div class="icolumn">
+        <div class="icontent">
+          <img src="img/piscina2.jpg" alt="Nature" style="width:100%" onclick="onClick(this)">
+        </div>
+      </div>
+      <div class="icolumn">
+        <div class="icontent">
+          <img src="img/minipiscina.jpg" alt="Mountains" style="width:100%" onclick="onClick(this)">
+        </div>
+      </div>
+    </div>
 
+    <div class="icontent">
+      <img src="img/nueva.jpg" alt="imagen" style="width:100%" onclick="onClick(this)">
 
-<div class="sliderrr gap">
-  <div class="slider">
+    </div>
 
-  <ul class="js__slider__images slider__images">
-    <li class="slider__images-item">
-      <img class="slider__images-image" src="img/piscina.jpg">
-    </li>
-    <li class="slider__images-item">
-      <img class="slider__images-image" src="img/piscina1.jpg">
-    </li>
-    <li class="slider__images-item">
-      <img class="slider__images-image" src="img/piscina2.jpg">
-    </li>
-
-    <li class="slider__images-item">
-      <img class="slider__images-image" src="img/piscina4.jpg">
-    </li>
-    <li class="slider__images-item">
-      <img class="slider__images-image" src="img/minipiscina.jpg">
-    </li>
-
-  </ul>
-
-  <div class="slider__controls">
-    <span class="slider__control js__slider__control--prev slider__control--prev">Anterior</span>
-    <ol class="js__slider__pagers slider__pagers"></ol>
-    <span class="slider__control js__slider__control--next slider__control--next">Siguiente</span>
-  </div>
-
-</div>
+    <!-- END MAIN -->
+    </div>
+    <div id="modal01" class="modal" onclick="this.style.display='none'">
+      <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <div class="imodal">
+        <img id="img01" style="max-width:100%">
+      </div>
+    </div>
 </div>
 <div style="margin-bottom:40px;"></div>
+<div class="txt pisc"><h1 class="bounce2">¿Por qué construir una Piscina?</h1></div>
 </div>
-<div class="row gap">
+<div class="row gap" style="background:white;">
   <div class="column">
   <svg xmlns="http://www.w3.org/2000/svg"  width="75px" height="75px"viewBox="0 0 512 512"><path d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z"/></svg>
   <p>¡Te ahorras largos viajes y esperas!</p>
